@@ -1,0 +1,123 @@
+body {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+textarea, select, button {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: green;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#response-section {
+    margin-top: 15px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+#response {
+    font-size: 20px;
+    color: black;
+}
+
+/* Pop-up styling */
+#popup {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px; /* Adjust the size of the pop-up */
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#popup h4 {
+    font-size: 18px; /* Set the title font size */
+    color: #333;
+}
+
+#popup-content {
+    font-size: 16px; /* Set the content font size */
+    color: #666;
+}
+
+#popup button {
+    font-size: 18px; /* Set the pop-up button size */
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#popup button:hover {
+    background-color: darkred;
+}
+
+/* Round button styling */
+#round-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#round-button:hover {
+    background-color: #0056b3;
+}
